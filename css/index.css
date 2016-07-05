@@ -22,8 +22,14 @@ body {
 }
 
 .form-donate {
-  max-width: 100px;
-  padding: 15px;
+  max-width: 150px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.form-donate-paypal {
+  max-width: 250px;
+  padding: 5px;
   margin: 0 auto;
 }
 
@@ -33,17 +39,4 @@ body {
 
 .form-donate .form-donate-heading {
   margin-bottom: 10px;
-}
-
-.form-donate .form-control {
-  position: relative;
-  height: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
-}
-
-.form-donate .form-control:focus {
-  z-index: 2;
 }

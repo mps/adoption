@@ -38,16 +38,16 @@
       </form> -->
       <h2 class="form-donate-heading">Partner with us today!</h2>
       <hr>
-      <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-donate">
+
+      <form method="get" action="https://cash.me/$stricklandadoption" class="form-donate-paypal">
+        <button type="submit" class="btn btn-success btn-lg" alt="No fees for us, we receive the full donation amount">Donate with Bank Account</button>
+      </form>
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-donate-paypal">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
         ">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form> -->
-
-      <form method="get" action="https://cash.me/$stricklandadoption" class="form-donate">
-        <button type="submit" class="btn btn-success btn-lg">Donate</button>
+        <button type="submit" alt="Donate with Paypal, slight fee charge from the full donation amount." class="btn btn-primary btn-lg">Donate with PayPal</button>
       </form>
 
     </div>
